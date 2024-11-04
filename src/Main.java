@@ -17,6 +17,8 @@ public class Main {
         System.out.println(saban);
 
         int[] player_numbers = { 2, 4, 54 };
-        System.out.println(player_numbers[2]);
+        for (int number : player_numbers) {
+            System.out.println(number);
+        }
     }
 }
