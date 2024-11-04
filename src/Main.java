@@ -15,5 +15,8 @@ public class Main {
 
         LegendaryCoach saban = new LegendaryCoach(7);
         System.out.println(saban);
+
+        int[] player_numbers = { 2, 4, 54 };
+        System.out.println(player_numbers[2]);
     }
 }
