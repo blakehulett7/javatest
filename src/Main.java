@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -20,5 +21,6 @@ public class Main {
         for (int number : player_numbers) {
             System.out.println(number);
         }
+        System.out.println(Arrays.toString(player_numbers));
     }
 }
